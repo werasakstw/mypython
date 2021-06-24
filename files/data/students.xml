@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students>
+	<student>
+		<id>1</id>
+		<name>John Rambo</name>
+		<department>it</department>
+	</student>
+	<student>
+		<id>2</id>
+		<name>Jack Ripper</name>
+		<department>cs</department>
+	</student>
+	<student>
+		<id>3</id>
+		<name>Joe Green</name>
+		<department>ce</department>
+	</student>
+	<student>
+		<id>4</id>
+		<name>Jame Bond</name>
+		<department>it</department>
+	</student>
+</students>
