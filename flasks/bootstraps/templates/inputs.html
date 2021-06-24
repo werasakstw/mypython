@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card">
+    <div class="card-body">
+        <h3>Form Group</h3>
+        <div class="form-group">
+            <label for="usr">Name:</label>
+            <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd">
+        </div>
+    </div>
+    <div class="card-body">
+        <h3>Text Area</h3>
+        <label for="comment">Comment:</label>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+    <div class="card-body">
+        <h3>Check Box</h3>
+        <div class="checkbox">
+            <label><input type="checkbox" value="op1">Option 1</label>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox" value="op2">Option 2</label>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox" value="op3" disabled>Option 3</label>
+        </div>
+    </div>
+    <div class="card-body">
+        <h3>Inline Check Box</h3>
+        <label class="checkbox-inline"><input type="checkbox" value="op1">Option 1</label>
+        <label class="checkbox-inline"><input type="checkbox" value="op2">Option 2</label>
+        <label class="checkbox-inline"><input type="checkbox" value="op3">Option 3</label>
+    </div>
+    <div class="card-body">
+        <h3>Radio Buttons</h3>
+        <div class="radio">
+            <label><input type="radio" name="optradio" checked>Option 1</label>
+        </div>
+        <div class="radio">
+            <label><input type="radio" name="optradio">Option 2</label>
+        </div>
+        <div class="radio disabled">
+            <label><input type="radio" name="optradio" disabled>Option 3</label>
+        </div>
+    </div>
+    <div class="card-body">
+        <h3>Inline Radio Buttons</h3>
+        <label class="radio-inline"><input type="radio" name="optradio" checked>Option 1</label>
+        <label class="radio-inline"><input type="radio" name="optradio">Option 2</label>
+        <label class="radio-inline"><input type="radio" name="optradio">Option 3</label>
+    </div>
+    <div class="card-body">
+        <h3>Select List</h3>
+        <select class="form-control" id="name">
+            <option>John</option>
+            <option>Jack</option>
+            <option>Joe</option>
+        </select>
+    </div>
+</div>
+{% endblock %}

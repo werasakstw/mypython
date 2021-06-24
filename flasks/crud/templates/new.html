@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2> New </h2>
+<form action="{{url_for('student.save')}}" method="POST">
+Name <input type="text" name="name"> <p/>
+Dep <input type="text" name="dep"> <p/>
+Gpa <input type="text" name="gpa"> <p/>
+<input type="submit" value="Save">
+</form>
+<form action="{{url_for('student.list')}}" method="GET">
+<input type="submit" value="Cancel">
+</form>
+{% endblock %}

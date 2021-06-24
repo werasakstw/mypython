@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2> Student Table </h2>
+<table style="width:50%">
+<tr> <th>Sid</th>
+     <th>Name</th>
+     <th>Department</th>
+     <th>Gpa</th> 
+</tr>
+{% for s in students %}
+<tr> <td> {{ s['sid'] }} </td>
+     <td> {{ s['name'] }} </td>
+     <td> {{ s['dep'] }} </td>
+     <td> {{ s['gpa'] }} </td>
+     <td> <a href="{{url_for('student.edit', sid=s['sid'])}}">Edit</a> </td> 
+</tr>
+{% endfor %}
+</table>
+
+<p/>
+<form action="{{url_for('student.new')}}" method="POST">
+<input type="submit" value="New">
+</form>
+
+{% endblock %}

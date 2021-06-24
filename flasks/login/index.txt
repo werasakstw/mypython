@@ -1,0 +1,4 @@
+protect
+view
+user
+login

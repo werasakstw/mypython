@@ -1,0 +1,31 @@
+
+<a href="/get">Get</a>
+<p/>
+
+<form action="/formget" method="GET">
+Name: <input type="text" name="name"/>
+<input type="submit" value="Form Get"/>
+</form>
+<p/>
+
+<form action="/post" method="POST">
+Name: <input type="text" name="name"/>
+<input type="submit" value="Post"/>
+</form>
+<p/>
+
+<a href="/getpost">Get&Post</a>
+<p/>
+
+<form action="/put" method="POST">
+Name: <input type="text" name="name"/>
+<input type="hidden" name="_method" value="PUT"/>
+<input type="submit" value="Put"/>
+</form>
+<p/>
+
+<form action="/delete" method="POST">
+Name: <input type="text" name="name"/>
+<input type="hidden" name="_method" value="DELETE"/>
+<input type="submit" value="Delete"/>
+</form>
