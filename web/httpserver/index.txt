@@ -1,0 +1,13 @@
+index.html
+hello.html
+run.bat
+
+http://127.0.0.1:8080
+curl 127.0.0.1:8080
+
+http://127.0.0.1:8080/hello.html
+curl 127.0.0.1:8080/hello.html
+
+\tcpmon
+
+client.py

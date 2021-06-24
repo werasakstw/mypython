@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Dynamic HTML</title>
+<script type="text/JavaScript">
+
+// Write a raw text.
+function doInnerText() {
+	output.innerText = "<h1>Hello!</h1>"; 
+}
+// Write a HTML.
+function doInnerHTML() {
+	output.innerHTML = "<h1>Hello!</h1>";
+}
+
+function doInsertBefore() {
+	output.insertAdjacentHTML("BeforeBegin",
+            "<p><input type='button' value='Before'/></p>");
+}
+function doInsertAfter() {
+	output.insertAdjacentHTML("AfterEnd",
+            "<p><input type='button' value='After'/></p>");
+}
+
+// New page.
+function doWrite() {
+	document.write("<h1>Hello! how do you do?</h1>");
+}
+</script>
+</head>
+
+<body>
+
+<input type="button" value="innerText" onclick="doInnerText()"/>
+<input type="button" value="innerHTML" onclick="doInnerHTML()"/>
+<input type="button" value="insertBefore" onclick="doInsertBefore()"/>
+<input type="button" value="insertAfter" onclick="doInsertAfter()"/>
+<input type="button" value="Write" onclick="doWrite()"/>
+<p>
+<div id="output"/>
+</body>
+</html>
