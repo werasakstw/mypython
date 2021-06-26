@@ -1,1 +1,0 @@
-set PATH=%PATH%;.\redis-3.2.1

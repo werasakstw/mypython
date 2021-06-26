@@ -1,1 +1,0 @@
-set PATH=%PATH%;.\mongodb-4.4.5\bin
