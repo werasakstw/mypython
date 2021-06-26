@@ -1,0 +1,21 @@
+1. Dowmload: msi/zip file
+     https://www.mongodb.com/try/download/community?tck=docs_server
+
+2. Unzip to (./mongodb-x.y.z)
+
+3. setp.bat
+
+4. Create db directory:
+	mkdir mydb
+
+5. Start server:  
+	mongod --dbpath=".\mydb"
+
+6. Test Client:
+	mongo --version
+        mongo -ping
+        quit()
+
+
+
+

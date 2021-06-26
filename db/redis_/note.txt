@@ -1,0 +1,46 @@
+1. Download a zip file from:
+	https://github.com/microsoftarchive/redis/releases
+
+2. Unzip to (./redis-x.y.z)
+
+3. setp.bat
+
+4. Start server:  
+	redis-server
+
+5. Test client:
+	redis-cli --version
+
+6. Inspect: redis.windows.conf
+
+7. Test:  redis-cli   (127.0.0.1:6379>)
+ping
+
+set john john@rambo.com
+set jack jack@ripper.com
+
+get john
+del john
+get john
+
+exists john
+exists jack
+
+get jack
+set jack jack@ripper.org
+get jack
+
+mset john Rambo jack Ripper
+get john
+get jack
+mget john jack
+
+exit
+
+-------------------------------------------------------
+
+redis.windows.conf
+
+Save the DB on disk:
+	save <seconds> <changes>
+
