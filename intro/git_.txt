@@ -1,0 +1,35 @@
+werasakstw@gmail.com
+mu-prolog2
+https://github.com/werasakstw/mypython.git
+
+#-------------------------------------------------
+
+mkdir mygit
+cd mygit
+
+# Initialized empty Git repository in current directory.
+git init	# A \.git is created.
+
+# Check status
+git status
+
+# Create a file
+echo Hello > hello.txt
+git status	# The files are unstaged.
+
+# Add a file to the tracked list.
+git add hello.txt 
+git status	# The files is staged.
+
+## Modify hello.txt
+notepad hello.txt
+git status
+
+## Restore hello.txt
+git restore hello.txt
+type hello.txt
+git status
+
+## Commit hello.txt
+git commit -m "1.0"
+git status
