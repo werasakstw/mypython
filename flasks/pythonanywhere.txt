@@ -1,0 +1,66 @@
+pythonanywhere.com
+
+werasakstw
+werasakstw@gmail.com
+mu-prolog
+
+#-----------------------------------------------
+
+Consoles:
+   Bash:
+ls
+pwd
+mkdir tmp
+cd tmp
+
+nano hello.py
+print('Hello')
+Crl+O Crl_X
+cat hello.py
+
+python hello.py
+python -V
+Crl+D
+
+  Python:
+     3.x
+1+2
+exit()
+
+#-----------------------------------------
+
+   + Open another file
+Choose a path to an existing file, or enter a new file name.
+/home/werasakstw/tmp/hi.py
+print('Hi')
+
+   >>>Run
+
+#-----------------------------------------
+
+# To upload files
+    Browse files
+Select target directory.
+    Upload a File
+
+#-----------------------------------------
+
+   Open Web tab
+	Add new web app
+	    Next
+		Flask
+		    Python 3.9
+	/home/werasakstw/mysite/flask_app.py
+	Next
+   http://werasakstw.pythonanywhere.com
+
+
+
+
+
+
+
+
+
+Dashboard:
+
