@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Ajax Support</title>
+<script type="text/javascript" src="script/prototype-1.6.0.2.js" ></script>
+<script>
+
+function doGet() {
+	new Ajax.Updater(
+		"output",
+		"/data/hello.txt",		// "GET" by default.
+		{ method: "get" } 
+	);
+}
+
+</script>
+</head>
+
+<body>
+<input type="button" value="Get" onclick="doGet()"/>
+<p>
+<div id="output"/>
+</body>
+</html>

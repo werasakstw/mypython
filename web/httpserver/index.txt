@@ -1,0 +1,24 @@
+index.html
+hello.html
+run.bat
+
+http://127.0.0.1:8080
+curl 127.0.0.1:8080
+
+http://127.0.0.1:8080/hello.html
+curl 127.0.0.1:8080/hello.html
+
+\tcpmon
+http_server.py
+my_server.py
+
+http_client.py
+urllibs.py
+req_scrabe.py
+bs.py
+
+
+
+
+
+

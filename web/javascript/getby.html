@@ -1,0 +1,29 @@
+<! getby.html >
+<html>
+<head>
+<title>getElementsBy</title>
+<script type="text/JavaScript">
+
+function doHelloId(i) {
+	var node = document.getElementById(i)
+	node.innerHTML = "Hello " + node.firstChild.data;
+}
+
+function doHiTagName(n) {
+	var names = document.getElementsByTagName(n);
+	for(var i = 0; i < names.length; i++)
+		document.getElementById(i).innerHTML = "Hi! " + names[i].firstChild.data;
+}		
+</script>
+</head>
+
+<body>
+
+<div id="0">John</div>
+<div id="1">Jack</div>
+<div id="2">Joe</div>
+<p>
+<input type="button" value="Id" onclick="doHelloId(1)"/>
+<input type="button" value="TagName" onclick="doHiTagName('div')"/>
+</body>
+</html>
