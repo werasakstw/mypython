@@ -1,4 +1,0 @@
-main
-themes
-menu
-crud
