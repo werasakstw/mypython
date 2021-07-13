@@ -1,4 +1,0 @@
-protect
-view
-user
-login
