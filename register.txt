@@ -1,8 +1,0 @@
-Register to the following sites and save
-	- user name and paasword
-	- API Key and API Secret (if needed)
-
-pinata.cloud
-my.pcloud.com
-filestack.com
-pythonanywhere.com
